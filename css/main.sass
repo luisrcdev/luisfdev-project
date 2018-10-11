@@ -1,0 +1,46 @@
+$red: darken(#2e2e2e, 5)
+
+body
+    background: #f2f2f2
+
+header
+    background: $red
+    color: #ffffff
+    padding: 1em 0
+.card
+    background: #ffffff
+    margin: 1em .5em 0 .5em
+    padding: 1em
+    border-radius: 10px
+    box-shadow: 0px 0px 20px 2px rgba(173,173,173,.2)
+    &_titulo
+        color: $red
+        font-size: 26px
+    &_description
+        text-align: left
+        margin: 1em 0
+    &_view
+        display: inline-block
+        background: $red
+        color: #ffffff
+        padding: .5em 1.5em
+        margin: .5em 0
+        border-radius: 50px
+        text-decoration: none
+        outline: none
+        &:hover
+            background: lighten($red, 5)
+    &_hash
+        color: $red
+        padding: .2em 1em
+        margin: 1em 0 0 0
+        border-radius: 50px
+        border: 1px solid $red
+        display: inline-block
+
+
+
+@media all and (max-width: 767px)
+    header
+        text-align: center
+        

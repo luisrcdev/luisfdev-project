@@ -1,0 +1,43 @@
+body {
+  background: #f2f2f2; }
+
+header {
+  background: #212121;
+  color: #ffffff;
+  padding: 1em 0; }
+
+.card {
+  background: #ffffff;
+  margin: 1em .5em 0 .5em;
+  padding: 1em;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 0px 20px 2px rgba(173, 173, 173, 0.2);
+  box-shadow: 0px 0px 20px 2px rgba(173, 173, 173, 0.2); }
+  .card_titulo {
+    color: #212121;
+    font-size: 26px; }
+  .card_description {
+    text-align: left;
+    margin: 1em 0; }
+  .card_view {
+    display: inline-block;
+    background: #212121;
+    color: #ffffff;
+    padding: .5em 1.5em;
+    margin: .5em 0;
+    border-radius: 50px;
+    text-decoration: none;
+    outline: none; }
+    .card_view:hover {
+      background: #2e2e2e; }
+  .card_hash {
+    color: #212121;
+    padding: .2em 1em;
+    margin: 1em 0 0 0;
+    border-radius: 50px;
+    border: 1px solid #212121;
+    display: inline-block; }
+
+@media all and (max-width: 767px) {
+  header {
+    text-align: center; } }
